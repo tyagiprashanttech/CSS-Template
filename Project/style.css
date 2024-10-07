@@ -1,0 +1,135 @@
+.fl {
+    float: left;
+}
+
+.new {
+    float: left;
+    margin-left: 1%;
+}
+
+.fr {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 500px;
+}
+
+.wave .shape-fill {
+    fill: #14E0B2;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav {
+    padding: 2% 5%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav a {
+    position: relative;
+}
+
+#title {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.title {
+    position: relative;
+    width: 50%;
+    margin: 4%;
+    float: left;
+}
+
+.aside {
+    position: relative;
+    width: 40%;
+    float: right;
+    margin-right: 2%;
+}
+
+.heading {
+    text-align: center;
+    clear: both;
+}
+
+.card {
+    width: 21%;
+    margin: 2%;
+    justify-content: space-between;
+
+
+}
+
+.view {
+    clear: both;
+    text-align: center;
+}
+
+.detail {
+    width: 50%;
+    text-align: right;
+    margin-top: 5%;
+}
+
+.detail h4 {
+    color: red;
+}
+
+.position {
+    width: 40%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.position img {
+    width: 100%;
+    border: 25px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 8vh;
+    background-color: blue;
+    clear: both;
+}
